@@ -6830,18 +6830,22 @@ button.bg-dark:focus {
 
 .border-success {
   border-color: #28a745 !important;
+  border-width:2px;
 }
 
 .border-info {
   border-color: #17a2b8 !important;
+  border-width:2px;
 }
 
 .border-warning {
   border-color: #ffc107 !important;
+	  border-width:2px;
 }
 
 .border-danger {
   border-color: #dc3545 !important;
+	  border-width:2px;
 }
 
 .border-light {
