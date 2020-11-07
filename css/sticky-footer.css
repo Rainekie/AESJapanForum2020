@@ -47,9 +47,10 @@ body {
     background-image: url("../images/MOB.png");    /* 背景画像指定 */
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center;
+	background-position: center center;
+	background-attachment: fixed;
 	  
-	background-color:  rgb(157, 212, 204);
+	background-color: rgb(157, 212, 204);
   }
 }
 
@@ -59,7 +60,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: center center;
-	  background-attachment: fixed;
+	background-attachment: fixed;
 	  
 	background-color: rgb(157, 212, 204);
   }
