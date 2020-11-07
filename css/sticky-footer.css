@@ -33,7 +33,33 @@ body {
 }
  
 .no-gutters　> .col,
-.no-gutters　> [class*="col-"] {
+.no-gutters　> [class*="col"] {
   margin:0;
   padding:0 20px 0 0;
+}
+
+.backcolor {
+	background-color:  rgba(157, 212, 204, 30);
+}
+
+@media (max-width: 640px) {
+  .backimage {
+    background-image: url("../images/MOB.png");    /* 背景画像指定 */
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	  
+	background-color:  rgb(157, 212, 204);
+  }
+}
+
+@media (min-width: 641px) {
+  .backimage {
+    background-image: url("../images/PC.png");    /* 背景画像指定 */
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+	  
+	background-color: rgb(157, 212, 204);
+  }
 }
