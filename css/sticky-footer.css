@@ -58,7 +58,8 @@ body {
     background-image: url("../images/PC.png");    /* 背景画像指定 */
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: center;
+	background-position: center center;
+	  background-attachment: fixed;
 	  
 	background-color: rgb(157, 212, 204);
   }
